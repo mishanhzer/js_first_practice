@@ -92,18 +92,3 @@ console.log(5 !== +'5');
 console.log(5 != 3);
 console.log(5 !== '3');
 console.log(2 + 2 * 2 !== +'6');
-
-
-// Первые наработки для будущего приложения
-
-const ofzBond = 1000;
-const dohod = ofzBond * 0.096;
-const nalog = dohod * 0.13;
-const finish = dohod - nalog;
-const mothDoh = finish / 12;
-
-console.log(ofzBond); // Цена облигации
-console.log(dohod); // Годоая доходность без налога
-console.log(nalog); // Налог 13%
-console.log(finish); // доходность годовая с учетом налога
-console.log(mothDoh); // средняя месячная купонная зп
